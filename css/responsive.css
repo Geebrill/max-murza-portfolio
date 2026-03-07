@@ -1,0 +1,309 @@
+@media (max-width: 1100px) {
+  .hero {
+    min-height: 460px;
+  }
+
+  .profile-card {
+    gap: 22px;
+    transform: translateY(-24px);
+  }
+
+  .profile-image {
+    width: 160px;
+    height: 160px;
+  }
+
+  .profile-info h1 {
+    font-size: 2.5rem;
+  }
+
+  .profile-subtitle {
+    font-size: 1.02rem;
+  }
+
+  .tabs-nav {
+    gap: 24px;
+  }
+
+  .content-card {
+    padding: 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container,
+  .hero-content,
+  .tabs-wrapper {
+    width: min(100% - 24px, 1120px);
+  }
+
+  .hero {
+    min-height: auto;
+    padding-top: 110px;
+    padding-bottom: 18px;
+  }
+
+  .profile-card {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    transform: translateY(0);
+  }
+
+  .profile-image {
+    width: 120px;
+    height: 120px;
+  }
+
+  .profile-info {
+    width: 100%;
+  }
+
+  .profile-info h1 {
+    font-size: 2rem;
+  }
+
+  .profile-subtitle {
+    font-size: 1rem;
+    margin-bottom: 14px;
+  }
+
+  .profile-meta {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 18px;
+  }
+
+  .rating,
+  .location {
+    font-size: 0.95rem;
+  }
+
+  .contact-btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .tracks-section {
+    margin-top: 20px;
+    margin-bottom: 24px;
+  }
+
+  .section-title {
+    font-size: 1.25rem;
+    margin-bottom: 14px;
+  }
+
+  .track-card {
+    padding: 14px;
+    gap: 12px;
+  }
+
+  .play-btn {
+    width: 42px;
+    height: 42px;
+  }
+
+  .play-icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .track-info h3 {
+    font-size: 0.95rem;
+    line-height: 1.35;
+  }
+
+  .track-info p {
+    font-size: 0.85rem;
+    margin-bottom: 8px;
+  }
+
+  .progress-container {
+    height: 5px;
+  }
+
+  .tabs-nav {
+    gap: 20px;
+    min-height: 60px;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+
+  .tabs-nav::-webkit-scrollbar {
+    display: none;
+  }
+
+  .tab-btn {
+    flex: 0 0 auto;
+    font-size: 0.93rem;
+    padding: 18px 0 16px;
+  }
+
+  .tab-content-section {
+    padding: 22px 0 44px;
+  }
+
+  .content-card {
+    padding: 20px 18px;
+    border-radius: 16px;
+  }
+
+  .content-card h2 {
+    font-size: 1.25rem;
+    margin-bottom: 14px;
+  }
+
+  .content-card p,
+  .terms-list li {
+    font-size: 0.96rem;
+  }
+
+  .credits-grid {
+    gap: 10px;
+  }
+
+  .credits-grid span {
+    font-size: 0.9rem;
+    padding: 9px 12px;
+  }
+
+  .review-card {
+    padding: 18px 0;
+  }
+
+  .review-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+  }
+
+  .review-header h3 {
+    font-size: 0.98rem;
+  }
+
+  .review-date {
+    font-size: 0.86rem;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    line-height: 1.55;
+  }
+
+  .hero {
+    padding-top: 84px;
+    padding-bottom: 14px;
+  }
+
+  .profile-image {
+    width: 104px;
+    height: 104px;
+  }
+
+  .profile-label {
+    font-size: 0.76rem;
+  }
+
+  .profile-info h1 {
+    font-size: 1.75rem;
+  }
+
+  .profile-subtitle {
+    font-size: 0.94rem;
+  }
+
+  .rating,
+  .location {
+    font-size: 0.9rem;
+  }
+
+  .meta-icon,
+  .btn-icon {
+    width: 16px;
+    height: 16px;
+  }
+
+  .contact-btn {
+    padding: 12px 18px;
+    font-size: 0.95rem;
+  }
+
+  .section-title {
+    font-size: 1.15rem;
+    margin-bottom: 12px;
+  }
+
+  .track-card {
+    align-items: flex-start;
+    padding: 12px;
+  }
+
+  .play-btn {
+    width: 40px;
+    height: 40px;
+  }
+
+  .play-icon {
+    width: 18px;
+    height: 18px;
+  }
+
+  .track-info h3 {
+    font-size: 0.9rem;
+  }
+
+  .track-info p {
+    font-size: 0.82rem;
+    margin-bottom: 8px;
+  }
+
+  .progress-container {
+    height: 5px;
+  }
+
+  .tabs-nav {
+    gap: 18px;
+    min-height: 56px;
+  }
+
+  .tab-btn {
+    font-size: 0.9rem;
+    padding: 16px 0 14px;
+  }
+
+  .tab-btn.active::after {
+    height: 2px;
+  }
+
+  .content-card {
+    padding: 18px 16px;
+  }
+
+  .content-card h2 {
+    font-size: 1.12rem;
+  }
+
+  .content-card p,
+  .terms-list li {
+    font-size: 0.93rem;
+  }
+
+  .credits-grid span {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .review-stars {
+    font-size: 0.95rem;
+    letter-spacing: 1.5px;
+  }
+
+  .verified-badge {
+    font-size: 0.78rem;
+    padding: 6px 10px;
+  }
+}
