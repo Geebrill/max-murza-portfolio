@@ -464,3 +464,55 @@ a {
 .hidden {
   display: none !important;
 }
+
+/* =========================
+   PRICE LIST
+========================= */
+
+.price-list {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.price-item {
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+  padding: 18px 20px;
+  background: #f9fafb;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.price-item:hover {
+  border-color: #22c55e;
+  box-shadow: 0 6px 16px rgba(15, 23, 42, 0.06);
+}
+
+.price-item-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 6px;
+}
+
+.price-item-header h3 {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #111827;
+}
+
+.price-item-header span {
+  font-weight: 700;
+  color: #22c55e;
+}
+
+.price-item p {
+  font-size: 0.95rem;
+  color: #4b5563;
+}
+
+.price-note {
+  margin-top: 18px;
+  font-size: 0.95rem;
+  color: #6b7280;
+}
